@@ -10,7 +10,7 @@ $ git clone https://github.com/Roy-lab/compnetbio-singlecell-integration.git
 
 ### At the beginning of class (if you want to follow along and run code on the server)
 1. Login to the biostat server.
-2. __ON THE SERVER__, go to the directory with the notebook and the dataset directories. If you git-cloned with the above command in your home directory and didn't rename and directories, it should just be:
+2. __ON THE SERVER__, go to the directory with the notebook and the dataset directories. If you git-cloned with the above command in your home directory and didn't rename any directories, it should just be:
 ```
 $ cd compnetbio-singlecell-integration
 ```
