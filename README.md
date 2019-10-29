@@ -1,14 +1,14 @@
 # Integrating single cell gene expression datasets
 Slides, notebook, and datasets for integrating single cell gene expression datasets
 
-### Before class
+## Before class
 - On the biostat server (or on your own computer), clone this repository:
 ```
 $ git clone https://github.com/Roy-lab/compnetbio-singlecell-integration.git
 ```
 - Or, if that doesn't work for some reason, simply download the whole repository zip file, and if you want to run code off the biostat server, `scp` the compressed file onto the server, and unzip.
 
-### At the beginning of class (if you want to follow along and run code on the server)
+## At the start of class (if you want to run code on the server)
 1. Login to the biostat server.
 2. __ON THE SERVER__, go to the directory with the notebook and the dataset directories. If you git-cloned with the above command in your home directory and didn't rename any directories, it should just be:
 ```
@@ -42,7 +42,7 @@ $ ssh -N -f -L localhost:${port}:localhost:${port} ${user}@${server.ip}
 ```
 5. __ON YOUR COMPUTER__, copy and paste in the localhost:port URL into a browser. In my case it would be `http://localhost:8512/?token=addfbbb64d3ee87f84d6805f8ba60011d6f31c4147742289`.
 
-### If you want to run code on your own computer
+## If you want to run code on your own computer
 1. Install Anaconda or Miniconda on your own computer.
 2. Assuming you cloned or downloaded the repo already, create a new environment using the `environment.yml` file included in this repo. 
 ```
