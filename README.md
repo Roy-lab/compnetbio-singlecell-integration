@@ -4,14 +4,14 @@
 Slides, notebook, and datasets for integrating single cell gene expression datasets
 
 ## Before class
-- On the biostat server (or on your own computer), clone this repository:
+- Log into the biostat server and clone this repository:
 ```
 $ git clone https://github.com/Roy-lab/compnetbio-singlecell-integration.git
 ```
-- Or, if that doesn't work for some reason, simply download the whole repository zip file, and if you want to run code off the biostat server, `scp` the compressed file onto the server, and unzip.
+- Or, if that doesn't work for some reason, simply download the whole repository zip file, `scp` the compressed file onto the server, and unzip.
 
-## At the start of class (if you want to run code on the server)
-1. Login to the biostat server.
+## At the start of class
+1. Login to the biostat server. If you are not already on the UW Network, you will need to VPN in first.
 2. __ON THE SERVER__, go to the directory with the notebook and the dataset directories. If you git-cloned with the above command in your home directory and didn't rename any directories, it should just be:
 ```
 $ cd compnetbio-singlecell-integration
@@ -46,11 +46,15 @@ $ ssh -N -f -L localhost:${port}:localhost:${port} ${user}@${server.ip}
 
 ## If you want to run code on your own computer
 1. Install Anaconda or Miniconda on your own computer.
-2. Assuming you cloned or downloaded the repo already, create a new environment using the `environment.yml` file included in this repo. 
+2. Clone this repository.
+```
+$ git clone https://github.com/Roy-lab/compnetbio-singlecell-integration.git
+```
+3. Create a new environment using the `environment.yml` file included in this repo. 
 ```
 $ conda env create -f environment.yml
 ```
-3. Activate the environment and launch Jupyter and open the notebook included in this repo.
+4. Activate the environment and launch Jupyter and open the notebook included in this repo.
 ```
 $ conda activate compnetbio-f19 #might be source activate compnetbio-f19 if you have an older conda
 $ jupyter notebook
