@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) [![Generic badge](https://img.shields.io/badge/python-3.6-blue.svg)](https://shields.io/)
 
-_Archived ontent and instructions for lecture in 2019_
+_Archived content and instructions for lecture in 2019_
 
 # Integrating single cell gene expression datasets
 This repository contains slides, notebook, and datasets for integrating single cell gene expression datasets. The content was created for BMI 826/CS 838 Special Topics in Computational Network Biology (https://compnetbiocourse.discovery.wisc.edu/).
